@@ -53,6 +53,20 @@ section {
     border: solid 2px var(--color1);
 }
 
+.images {
+    display: flex;
+}
+
+.selection-image {
+    height: 300px;
+    margin: 20px auto;
+}
+
+.selection-image img {
+    height: inherit;
+
+}
+
 header {
     display: flex;
     justify-content: flex-end;
@@ -78,7 +92,7 @@ header img {
 p {
     margin: var(--gutter);
 }
-  
+
 footer {
     position: fixed;
     width: 100%;
@@ -89,3 +103,8 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+
+.slogans, .count {
+    margin: 10px auto;
+}
+

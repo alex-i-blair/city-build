@@ -20,47 +20,61 @@
     </header>
     <main>
         <section class="main-section">
-            <img class="main-logo" src="./assets/alchemy-logo.png" />
-            <h2>
-                Welcome to Alchemy Bootstrap!
-            </h2>
+            
+            <div class='picker'>
+                <label>
+                    Waterfront
+                    <select id="waterfront-dropdown">
+                        <option value="portland">Portland</option>
+                        <option value="riviera-maya">Riviera Maya</option>
+                        <option value="san-sebastian">San Sebastian</option>
+                    </select>
+                </label>
+                <label>
+                    Skyline
+                    <select id="skyline-dropdown">
+                        <option value="portland">Portland</option>
+                        <option value="st-louis">St. Louis</option>
+                        <option value="toronto">Toronto</option>
+                    </select>
+                </label>
+                <label>
+                    Castle
+                    <select id="castle-dropdown">
+                        <option value="blair">Blair</option>
+                        <option value="hambach">Hambach</option>
+                        <option value="neuschwanstein">Neuschwanstein</option>
+                    </select>
+                </label>
+                
 
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
-            </p>
-            <hr />
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
-            </p>
-
+            </div>
+            
+            <div class='images'>
+                <div class='selection-image'>
+                    <img id='waterfront-image' src="./assets/" alt="">
+                </div>
+                <div class='selection-image'>
+                    <img id='skyline-image' src="./assets/" alt="">
+                </div>
+                <div class='selection-image'>
+                    <img id='castle-image' src="./assets/" alt="">
+                </div>
+                
+            </div>
+            <div class='count' id='count'>
+                
+                
+            </div>
+            <div class='slogans'>
+                <label>
+                    Slogan
+                    <input id="slogan-input">
+                    
+                </label>
+                <button id='slogan-button'>Add slogan</button>
+            </div>
+            <div id='slogan'></div>
         </section>
     </main>
     <footer>
