@@ -63,7 +63,7 @@ section {
 }
 
 .selection-image img {
-    height: inherit;
+    height: 100%;
 
 }
 
