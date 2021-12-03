@@ -59,10 +59,12 @@ section {
 
 .selection-image {
     height: 300px;
+    margin: 20px auto;
 }
 
 .selection-image img {
     height: inherit;
+
 }
 
 header {
@@ -90,7 +92,7 @@ header img {
 p {
     margin: var(--gutter);
 }
-  
+
 footer {
     position: fixed;
     width: 100%;
@@ -101,3 +103,8 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+
+.slogans, .count {
+    margin: 10px auto;
+}
+
