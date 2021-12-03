@@ -1,5 +1,7 @@
 // import functions and grab DOM elements
 
+import { makeCountString } from './utils.js';
+
 // let state
 
 // set event listeners 
@@ -60,5 +62,5 @@ function displaySlogans() {
 }
 
 function displayCounts() {
-    changeCountsEl.textContent = `You've changed the waterfront ${waterCount} times, the skyline ${skylineCount} times, and the castle ${castleCount} times.`;
+    changeCountsEl.textContent = makeCountString(waterCount, skylineCount, castleCount);
 }
