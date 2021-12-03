@@ -53,6 +53,18 @@ section {
     border: solid 2px var(--color1);
 }
 
+.images {
+    display: flex;
+}
+
+.selection-image {
+    height: 300px;
+}
+
+.selection-image img {
+    height: inherit;
+}
+
 header {
     display: flex;
     justify-content: flex-end;

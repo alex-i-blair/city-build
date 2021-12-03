@@ -16,6 +16,10 @@ const waterfrontSelectEl = document.getElementById('waterfront-dropdown');
 const sloganInputEl = document.getElementById('slogan-input');
 const sloganButtonEl = document.getElementById('slogan-button');
 const sloganCountEl = document.getElementById('count');
+const sloganDisplayEl = document.getElementById('slogan');
+
+sloganArray = [];
+sloganCount
 
 skylineSelectEl.addEventListener('change', () => {
     let city = skylineSelectEl.value;
@@ -24,11 +28,14 @@ skylineSelectEl.addEventListener('change', () => {
 });
 castleSelectEl.addEventListener('change', () => {
     let castle = castleSelectEl.value;
-    castleImageEl.src = `./assets/${castle}-castle`;
+    castleImageEl.src = `./assets/${castle}-castle.jpeg`;
 });
 waterfrontSelectEl.addEventListener('change', () => {
-
+    let water = waterfrontSelectEl.value;
+    waterfrontImageEl.src = `./assets/${water}-waterfront.jpeg`;
 });
 sloganButtonEl.addEventListener('click', () => {
-
+    let slogan = sloganInputEl.value;
+    sloganDisplayEl.textContent = slogan;
+    
 });
